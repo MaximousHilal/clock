@@ -1,0 +1,83 @@
+body {
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(45deg, red, yellow);
+}
+
+.digital {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    color: #f2f2f2;
+    transform: translateX(-50%);
+    font-family: helvetica;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+
+.clock {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 50%;
+    background-image: linear-gradient(-45deg, red, yellow);
+    position: relative;
+    border-top: 5px solid #461d1d;
+    border-bottom: 5px solid #461d1d;
+}
+
+.clock > span {
+    position: absolute;
+    color: #fff;
+    font-family: helvetica;
+    font-size: 28px;
+}
+
+.top {
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.right {
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bottom {
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.left {
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.clock > div {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    border-radius: 25%;
+}
+
+.hour {
+    height: 100px;
+    width: 5px;
+    border-top: 100px solid #461d1d;
+}
+
+.minute {
+    height: 100px;
+    width: 5px;
+    border-top: 100px solid #e02424;
+}
+
+.second {
+    height: 100px;
+    width: 5px;
+    border-top: 100px solid #056705;
+}
